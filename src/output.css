@@ -377,9 +377,6 @@
   .w-56 {
     width: calc(var(--spacing) * 56);
   }
-  .w-\[300px\] {
-    width: 300px;
-  }
   .w-fit {
     width: fit-content;
   }
@@ -900,66 +897,6 @@
   }
   .dark\:text-white {
     @media (prefers-color-scheme: dark) {
-      color: var(--color-white);
-    }
-  }
-  .\[\*\>a\]\:m-4 {
-    &:is(*>a) {
-      margin: calc(var(--spacing) * 4);
-    }
-  }
-  .\[\*\>a\]\:rounded-sm {
-    &:is(*>a) {
-      border-radius: var(--radius-sm);
-    }
-  }
-  .\[\*\>a\]\:bg-green-700 {
-    &:is(*>a) {
-      background-color: var(--color-green-700);
-    }
-  }
-  .\[\*\>a\]\:p-3 {
-    &:is(*>a) {
-      padding: calc(var(--spacing) * 3);
-    }
-  }
-  .\[\*\>a\]\:px-5 {
-    &:is(*>a) {
-      padding-inline: calc(var(--spacing) * 5);
-    }
-  }
-  .\[\*\>a\]\:text-white {
-    &:is(*>a) {
-      color: var(--color-white);
-    }
-  }
-  .\[\&\>a\]\:m-4 {
-    &>a {
-      margin: calc(var(--spacing) * 4);
-    }
-  }
-  .\[\&\>a\]\:rounded-sm {
-    &>a {
-      border-radius: var(--radius-sm);
-    }
-  }
-  .\[\&\>a\]\:bg-green-700 {
-    &>a {
-      background-color: var(--color-green-700);
-    }
-  }
-  .\[\&\>a\]\:p-3 {
-    &>a {
-      padding: calc(var(--spacing) * 3);
-    }
-  }
-  .\[\&\>a\]\:px-5 {
-    &>a {
-      padding-inline: calc(var(--spacing) * 5);
-    }
-  }
-  .\[\&\>a\]\:text-white {
-    &>a {
       color: var(--color-white);
     }
   }
